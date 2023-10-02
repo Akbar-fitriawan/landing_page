@@ -1,0 +1,397 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #435334;
+    background-color: #FFEEF4;
+    width: 100%;
+    height: 100%;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+/* navbar */
+nav{
+    position: relative;
+    top: 0;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+
+}
+
+.navbar, li, a, button{
+    font-size: 16px;
+    color: #96C291;
+    text-decoration: none;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.logo img{
+    cursor: pointer;
+    max-width: 100px;
+}
+
+.nav_link li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link li a:hover{
+    color: #618264;
+}
+
+
+.join_us button{
+    margin-left: 20px;
+    padding: 7px 25px;
+    background-color: #96C291;
+    color: #FFEEF4;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s
+}
+
+
+.join_us button:hover{
+    background-color: #618264;
+}
+
+/* end nav bar */
+
+/* jumbtron */
+
+.bg-head{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-head img{
+    position: relative;
+    opacity: 0.8;
+    border: none;
+    border-radius: 2rem;
+    z-index: -1;
+
+}
+
+.text-overlay{
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    width: 500px;
+}
+.text-overlay h1, p {
+    position: relative;
+    padding: 2px 10px;
+    color: #435334;
+
+}
+
+/* end header */
+/* Tentang kami */
+.warp-about{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+.about_img{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+
+}
+
+.about_img img{
+
+    position: relative;
+}
+
+.about_1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about_1 h2 p{
+    padding: 2px;
+    color: #435334;
+}
+.about_2{
+    display: flex;
+    flex-direction: column;  
+}
+.about_2 h2 p{
+    padding: 2px;
+    color: #435334;
+}
+
+/* end tentang kami */
+/*  services */
+.conteiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.head_services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.head_services h2{
+    text-align: center;
+}
+.head_services p{
+    padding: 10px 10px;
+}
+
+.warp-conteiner1, .warp-conteiner2, .warp-conteiner3, .warp-conteiner4{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #79AC78;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+}
+
+.warp-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 0px 20px;
+}
+
+.warp-services h2{
+    margin-left: 10px ;
+    display: inline-block;
+    color: #FFEEF4;
+}
+.warp-services p{
+    display: inline-block;
+    color: #FFEEF4;
+}
+
+#btn_detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#btn_detail button{
+    padding: 10px;
+    background-color: #FFEEF4;
+    color:  #9EB384;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#btn_detail button:hover{
+    background-color: #618264;
+    color: #FFEEF4;
+}
+
+.warp-image{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.warp-image img{
+    max-width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+/* end services */
+
+/* form join us */
+
+.conteiner-join{
+    width: 100%;
+    background-color: #79AC78;
+}
+
+.head_form{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.head_form h2{
+    color: #FFEEF4;
+    border: none;
+    border-radius: 50px 50px 0px 0px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    background-color:  #618264;
+    width: 50%;
+}
+
+.warp-join{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_warp{
+    background-color: #618264;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form_warp form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    
+}
+
+.form_warp label{
+    color: #FFEEF4;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.form_warp input{
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+.form_warp button{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 125px;
+    padding: 10px;
+    background-color: #FFEEF4;
+    color:  #9EB384;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.form_warp button:hover{
+    background-color: #94A684;
+    color: #FFEEF4;
+}
+
+.form_warp input[type="checkbox"]{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.form_warp input[type="checkbox"]:not(:checked) {
+    background-color: #fff;
+}
+
+.form_warp input[type="checkbox"]:checked {
+    background-color: green;
+    color: #fff;
+}
+
+
+/* end form */
+
+/* footer */
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.warp-footer{
+    margin-top: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4E4D0;
+
+}
+
+.warp-footer h3{
+    color: #191717;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;   
+}
+
+.warp-footer a{
+    display: block;
+    color: #191717;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.warp-footer span{
+    margin: 10px;
+}
+
+.warp-footer img{
+    cursor: pointer;
+    margin: 0px 10px;
+    max-width: 100px;
+}
